@@ -1,0 +1,74 @@
+<style>
+    @font-face {
+        font-family: "Computer Modern", "malgun gothic";
+        src: url('http://mirrors.ctan.org/fonts/cm-unicode/fonts/otf/cmunss.otf');
+    }
+    div.cell{
+        width: 100%;
+    }
+    ul {
+        line-height: 145%;
+        font-size: 90%;
+    }
+    li {
+        margin-bottom: 0.2em;
+    }
+    h1 {
+        font-family: "malgun gothic";
+    }
+    code {
+        font-family: "malgun gothic";
+    }
+    div.h1 {
+        font-family: "malgun gothic";
+    }
+    h4{
+        margin-top: 12px;
+        margin-bottom: 3px;
+       }
+    pre {
+        font-family: 'malgun gothic';
+    }
+    div.text_cell_render{
+        font-family: Computer Modern, "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif, "malgun gothic";;
+        line-height: 145%;
+        font-size: 130%;
+        width: 90%;
+//        margin-left:auto;
+//        margin-right:auto;
+    }
+    .CodeMirror{
+            font-family: "Source Code Pro", "malgun gothic", source-code-pro,Consolas, monospace;
+    }
+/*    .prompt{
+        display: None;
+    }*/
+    .text_cell_render h5 {
+        font-weight: 300;
+        font-size: 16pt;
+        color: #4057A1;
+        font-style: italic;
+        margin-bottom: 0.5em;
+        margin-top: 0.5em;
+        display: block;
+    }
+
+    .warning{
+        color: rgb( 240, 20, 20 )
+        }
+</style>
+<script>
+    MathJax.Hub.Config({
+                        TeX: {
+                           extensions: ["AMSmath.js"]
+                           },
+                tex2jax: {
+                    inlineMath: [ ['$','$'], ["\\(","\\)"] ],
+                    displayMath: [ ['$$','$$'], ["\\[","\\]"] ]
+                },
+                displayAlign: 'center', // Change this to 'center' to center equations.
+                "HTML-CSS": {
+                    styles: {'.MathJax_Display': {"margin": 4}}
+                }
+        });
+</script>
