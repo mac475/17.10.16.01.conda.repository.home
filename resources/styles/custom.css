@@ -3,47 +3,50 @@
         font-family: "Computer Modern", "malgun gothic";
         src: url('http://mirrors.ctan.org/fonts/cm-unicode/fonts/otf/cmunss.otf');
     }
-    div.cell{
-        width: 100%;
-    }
+//    div.cell{
+//        width: 100%;
+//    }
+    // 아래의 div.container는 내가 임의로 추가한 style임
+//    div.container{
+//        width: 105%;
+//    }
     ul {
-        line-height: 145%;
-        font-size: 90%;
+        line-height: 100%;
+        font-size: 100%;
     }
     li {
-        margin-bottom: 0.2em;
+        margin-bottom: 0.5em;
+        line-height: 1.2em;
+    }
+    ul.li {
+        margin-bottom: 0.5em;
+        line-height: 1.2em;
     }
     h1 {
-        font-family: "malgun gothic";
-    }
-    code {
-        font-family: "malgun gothic";
-    }
-    div.h1 {
-        font-family: "malgun gothic";
+        font-family: Helvetica, serif, "malgun gothic";
     }
     h4{
         margin-top: 12px;
-        margin-bottom: 3px;
+//        margin-bottom: 3px;
        }
-    pre {
-        font-family: 'malgun gothic';
-    }
     div.text_cell_render{
-        font-family: Computer Modern, "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif, "malgun gothic";;
-        line-height: 145%;
-        font-size: 130%;
-        width: 90%;
+//        font-family: Computer Modern, "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+        font-family: malgun gothic;
+//        line-height: 140%;
+        line-height: 1.5em;
+//        font-size: 100%;
+//        width: 100%;
 //        margin-left:auto;
 //        margin-right:auto;
     }
     .CodeMirror{
-            font-family: "Source Code Pro", "malgun gothic", source-code-pro,Consolas, monospace;
+            font-family: "Source Code Pro", source-code-pro,Consolas, monospace;
     }
 /*    .prompt{
         display: None;
     }*/
     .text_cell_render h5 {
+        font-family: malgun gothic;
         font-weight: 300;
         font-size: 16pt;
         color: #4057A1;
@@ -52,7 +55,6 @@
         margin-top: 0.5em;
         display: block;
     }
-
     .warning{
         color: rgb( 240, 20, 20 )
         }
@@ -67,8 +69,8 @@
                     displayMath: [ ['$$','$$'], ["\\[","\\]"] ]
                 },
                 displayAlign: 'center', // Change this to 'center' to center equations.
-                "HTML-CSS": {
-                    styles: {'.MathJax_Display': {"margin": 4}}
-                }
+//                "HTML-CSS": {
+//                    styles: {'.MathJax_Display': {"margin": 4}}
+//                }
         });
 </script>
